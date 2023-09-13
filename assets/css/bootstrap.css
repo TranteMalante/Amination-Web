@@ -60,6 +60,9 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
+  background-image: url("../img/whiteWood.jpg");
+  background-size: 10%;
+  background-repeat: inherit;
   background-color: #fff;
 }
 
@@ -473,6 +476,11 @@ mark,
 .img-fluid {
   max-width: 100%;
   height: auto;
+}
+
+.img-fluid img{
+  height: 75%;
+  width: 75%;
 }
 
 .img-thumbnail {
@@ -1348,6 +1356,11 @@ pre code {
     -ms-flex: 0 0 33.333333%;
     flex: 0 0 33.333333%;
     max-width: 33.333333%;
+  }
+
+  .col-lg-4 img{
+    height: 50%;
+    width: 50%;
   }
   .col-lg-5 {
     -ms-flex: 0 0 41.666667%;

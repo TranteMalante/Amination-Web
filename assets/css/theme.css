@@ -1477,6 +1477,18 @@ a.text-dark:hover, a.text-dark:focus {
   max-width: 300px;
   text-align: center;
   color: #898798;
+  background-color: #F6F5FC;
+  border-radius: 8px;
+  box-shadow: 0 3px 12px rgba(95, 92, 120, 0.12);
+}
+
+.large-card-service{
+  display: flex;
+  margin: 16px auto;
+  padding: 32px 20px;
+  text-align: left;
+  color: #898798;
+  background-color: #F6F5FC;
   border-radius: 8px;
   box-shadow: 0 3px 12px rgba(95, 92, 120, 0.12);
 }
@@ -1594,7 +1606,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .card-pricing .header .suffix {
   font-size: 24px;
-  color: #C9C7DC;
+  color: #000000;
 }
 
 .card-pricing .header h5 {
@@ -1625,10 +1637,28 @@ a.text-dark:hover, a.text-dark:focus {
   box-shadow: none !important;
 }
 
+.card-pricing.oro {
+  background-color: #ffbf00;
+  color: #000;
+  box-shadow: 0 4px 16px #967101;
+}
+
 .card-pricing.marked {
   background-color: #6C55F9;
   color: #fff;
   box-shadow: 0 4px 16px rgba(107, 85, 249, 0.5);
+}
+
+.card-pricing.bronce {
+  background-color: #CD7F32;
+  color: black;
+  box-shadow: 0 4px 16px #83501e;
+}
+
+.card-pricing.plata {
+  background-color: #b4b6b9;
+  color: black;
+  box-shadow: 0 4px 16px #7b7d80;
 }
 
 .card-pricing.marked .header h5 {
