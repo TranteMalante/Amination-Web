@@ -49,3 +49,8 @@
 	color: #fff; 
 	text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
 }
+
+.banner_image_3 {
+	height: 50%;
+	width: 50%;
+}

@@ -60,10 +60,10 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-image: url("../img/whiteWood.jpg");
-  background-size: 10%;
+  background-image: url("../img/prueba-background.png");
+  background-size: 30%;
   background-repeat: inherit;
-  background-color: #fff;
+  background-color: #ffffff;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -6832,6 +6832,11 @@ a.bg-dark:hover, a.bg-dark:focus,
 button.bg-dark:hover,
 button.bg-dark:focus {
   background-color: #1d2124 !important;
+}
+
+.bg-brown {
+  background-image: url("../img/Sprite-0001.png")!important;
+  background-size: contain;
 }
 
 .bg-white {

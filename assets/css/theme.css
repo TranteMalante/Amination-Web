@@ -412,7 +412,7 @@ a.text-dark:hover, a.text-dark:focus {
   font-family: Arial Black; 
 	font-weight: bold;
   text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
-  background-color: #6C55F9;
+  background-color: #b12828;
   border-color: transparent;
 }
 
@@ -1068,7 +1068,7 @@ a.text-dark:hover, a.text-dark:focus {
   text-align: left; 
 	font-family: Arial Black; 
 	font-weight: bold; 
-	font-size: 125%; 
+	font-size: 175%; 
 	color: #fff; 
 	text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
 }
