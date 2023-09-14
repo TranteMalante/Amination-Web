@@ -1358,6 +1358,9 @@ a.text-dark:hover, a.text-dark:focus {
   margin-top: 16px;
   margin-bottom: 16px;
   height: 320px;
+  background-image: url("../img/frogs.gif");
+  background-size: contain;
+  background-repeat:round;
   background-color: #F6F5FC;
   color: #645F88;
   border-radius: 30px;
