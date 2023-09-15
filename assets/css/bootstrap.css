@@ -60,9 +60,9 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-image: url("../img/prueba-background.png");
-  background-size: 30%;
-  background-repeat: inherit;
+  background-image: url("../img/hierba500.png");
+  background-size:contain;
+  background-repeat: repeat-y;
   background-color: #ffffff;
 }
 
