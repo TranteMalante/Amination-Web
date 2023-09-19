@@ -60,9 +60,9 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-image: url("../img/hierba500.png");
-  background-size:contain;
-  background-repeat: repeat-y;
+  background-image: url("../img/titulo500.png"), url("../img/hierba500.png");
+  background-size: 100% auto, 100% auto;
+  background-repeat: no-repeat, repeat-y;
   background-color: #ffffff;
 }
 
