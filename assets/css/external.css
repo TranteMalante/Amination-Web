@@ -54,3 +54,11 @@
 	height: 50%;
 	width: 50%;
 }
+
+.img_card_simple {
+	transition: transform 0.2s ease-in-out;
+}
+
+.img_card_simple:hover {
+	transform: scale(0.95);
+}
