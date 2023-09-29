@@ -62,3 +62,12 @@
 .img_card_simple:hover {
 	transform: scale(0.95);
 }
+
+@media (max-width: 767px) {
+	.large-card-service {
+		flex-direction: column; /* Alinea los elementos en columna en dispositivos móviles */
+	}
+	.large-card-service img {
+		display: none; /* Oculta la imagen en dispositivos móviles */
+	}
+}

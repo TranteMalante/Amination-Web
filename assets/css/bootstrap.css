@@ -489,6 +489,12 @@ mark,
   width: 75%;
 }
 
+@media (max-width: 700px){
+  .img-fluid img{
+    display: none;
+  }
+}
+
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
