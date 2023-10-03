@@ -70,6 +70,7 @@ body {
   background-size: 100% auto, 100% auto;
   background-repeat: no-repeat, repeat-y;
   background-color: #ffffff;
+  background-position: center 70px, center;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
