@@ -84,7 +84,8 @@ body {
 }
 
 .desktop_navbar_logo_img {
-    width: 5rem;
+    width: 3rem;
+    height: auto;
     padding-left: 2rem;
     padding-right: 1rem;
 }
