@@ -200,7 +200,7 @@ body {
     align-items: center;
     align-content: center;
     justify-content: center;
-    background: rgba(0, 0, 0, .5) url('https://imgur.com/cGMLytH.png');
+    background: rgba(0, 0, 0, .5) url(https://imgur.com/MvsWZb8.png);
     background-blend-mode: darken;
     background-repeat: no-repeat;
     background-position: 50% 50%;
@@ -494,13 +494,14 @@ body {
     margin-bottom: .5rem;
 }
 .main5_admins_description_rank_owner {
-    color: #3498db;
+    color: #f82f2f;
+    font-size:2.5rem;
 }
 .main5_admins_description_rank_admin {
     color: #f82f2f;
 }
 .main5_admins_description_title {
-    text-align: center;
+    text-align: left;
     font-size:1.5rem;
     font-weight: 700;
     color: #fff;
@@ -559,7 +560,12 @@ body {
     margin-bottom: .5rem;
 }
 .main5_supporters_description_rank_supporter {
+    font-size: 1.8rem;
     color: #00f8ff;
+}
+.main5_mod_description_rank_supporter {
+    font-size: 1.2rem;
+    color: #ffa600;
 }
 .main5_supporters_description_title {
     text-align: center;
