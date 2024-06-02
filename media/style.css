@@ -469,10 +469,11 @@ body {
 }
 
 .main5_admins_img {
-    border-radius: var(--roundness);
+    border-radius: 2.5rem;
     max-width: 45%;
     max-height: 100%;
     align-self: center;
+    padding: 2rem;
 }
 .main5_admins_description_div {
     display: flex;
