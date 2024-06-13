@@ -200,7 +200,7 @@ body {
     align-items: center;
     align-content: center;
     justify-content: center;
-    background: rgba(0, 0, 0, .5) url(https://imgur.com/MvsWZb8.png);
+    background: rgba(0, 0, 0, .5) url(https://imgur.com/GljElJs.png);
     background-blend-mode: darken;
     background-repeat: no-repeat;
     background-position: 50% 50%;
@@ -217,7 +217,7 @@ body {
     margin-left:auto;
     margin-right: auto;
     transition: all .5s;
-    max-width: 40rem;
+    max-width: 17rem;
 }
 .main1_logo:hover {
     transform: scale(1.05)
@@ -225,7 +225,7 @@ body {
 
 .main1_description {
     text-align: center;
-    font-size:3rem;
+    font-size:2rem;
     margin-bottom: var(--nice-padding);
     margin-left: 1rem;
     margin-right: 1rem;
