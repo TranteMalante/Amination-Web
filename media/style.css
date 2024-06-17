@@ -181,7 +181,20 @@ body {
     background-color: #00000022;
 } 
 
+.normas {
+    text-align: left;
+}
 
+.normas h2 {
+    text-align: center;
+    font-size: 3rem;
+    color: var(--accent1);
+}
+
+.normas a{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
 
 .mainflex {
     display: flex;
@@ -291,6 +304,32 @@ body {
 .main1_downarrow:hover {
     opacity: 100%;
     transform: scale(1.05)
+}
+
+.div-claro {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    padding-bottom: 1rem;
+    background-color: var(--background2);
+    width: 100%;
+}
+
+.div-oscuro {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    padding-bottom: 1rem;
+    background-color: var(--background1);
+    width: 100%;
+}
+
+.div-oscuro .content,
+.div-claro .content {
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
 .main2 {
@@ -659,11 +698,6 @@ body {
     border-left: 3px solid var(--background2);
     padding-left: .75rem;
 }
-
-
-
-
-
 
 
 /* Copyright Text */
