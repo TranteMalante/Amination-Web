@@ -186,13 +186,13 @@ body {
 }
 
 .normas h2 {
-    text-align: center;
+    text-align: left;
     font-size: 3rem;
-    color: var(--accent1);
+    color: rgb(255, 255, 188);
 }
 
 .normas a{
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     font-weight: bold;
 }
 
@@ -249,6 +249,12 @@ body {
 .main1_actcent {
     font-weight: 800;
     color:var(--accent1);
+}
+
+.main1_actcent_normas {
+    font-weight: 800;
+    font-size: 4rem;
+    color:rgb(255, 255, 188);
 }
 
 .main1_ipcopier {
@@ -328,8 +334,9 @@ body {
 
 .div-oscuro .content,
 .div-claro .content {
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-left: 22%;
+    padding-right: 22%;
+    font-size: 1.3rem;
 }
 
 .main2 {
